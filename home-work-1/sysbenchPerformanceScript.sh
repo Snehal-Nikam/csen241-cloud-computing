@@ -1,10 +1,10 @@
 #!/bin/bash
 
 TestCases=(
-    #"cpu --cpu-max-prime=1000"
-    #"cpu --cpu-max-prime=1000"
-    #"memory --memory-block-size=2K"
-    #"memory --memory-block-size=4K"
+    "cpu --cpu-max-prime=1000"
+    "cpu --cpu-max-prime=20000"
+    "memory --memory-block-size=2K"
+    "memory --memory-block-size=4K"
     "fileio --file-test-mode=rndrw --file-total-size=3G"
     "fileio --file-test-mode=seqwr --file-total-size=3G"
     )
