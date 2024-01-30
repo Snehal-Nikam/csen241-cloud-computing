@@ -1,0 +1,172 @@
+Run 1:
+Command: sysbench cpu --cpu-max-prime=1000  run
+Results:
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 1000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second: 360811.06
+
+General statistics:
+    total time:                          30.0001s
+    total number of events:              10824656
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.74
+         95th percentile:                        0.00
+         sum:                                29084.14
+
+Threads fairness:
+    events (avg/stddev):           10824656.0000/0.00
+    execution time (avg/stddev):   29.0841/0.00
+----------------------------------------
+Run 2:
+Command: sysbench cpu --cpu-max-prime=1000  run
+Results:
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 1000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second: 362186.32
+
+General statistics:
+    total time:                          30.0001s
+    total number of events:              10865932
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.05
+         95th percentile:                        0.00
+         sum:                                29105.07
+
+Threads fairness:
+    events (avg/stddev):           10865932.0000/0.00
+    execution time (avg/stddev):   29.1051/0.00
+----------------------------------------
+Run 3:
+Command: sysbench cpu --cpu-max-prime=1000  run
+Results:
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 1000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second: 362023.84
+
+General statistics:
+    total time:                          30.0001s
+    total number of events:              10861070
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.58
+         95th percentile:                        0.00
+         sum:                                29107.48
+
+Threads fairness:
+    events (avg/stddev):           10861070.0000/0.00
+    execution time (avg/stddev):   29.1075/0.00
+----------------------------------------
+Run 4:
+Command: sysbench cpu --cpu-max-prime=1000  run
+Results:
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 1000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second: 361902.01
+
+General statistics:
+    total time:                          30.0001s
+    total number of events:              10857446
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.13
+         95th percentile:                        0.00
+         sum:                                29069.45
+
+Threads fairness:
+    events (avg/stddev):           10857446.0000/0.00
+    execution time (avg/stddev):   29.0695/0.00
+----------------------------------------
+Run 5:
+Command: sysbench cpu --cpu-max-prime=1000  run
+Results:
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 1000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second: 360195.01
+
+General statistics:
+    total time:                          30.0001s
+    total number of events:              10806253
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.92
+         95th percentile:                        0.00
+         sum:                                29061.97
+
+Threads fairness:
+    events (avg/stddev):           10806253.0000/0.00
+    execution time (avg/stddev):   29.0620/0.00
+----------------------------------------
+Run 1:
+Command: sysbench cpu --cpu-max-prime=1000  run
