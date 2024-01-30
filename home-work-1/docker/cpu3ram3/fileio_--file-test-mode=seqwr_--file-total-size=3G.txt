@@ -1,0 +1,235 @@
+Run 1:
+Command: sysbench fileio --file-test-mode=seqwr --file-total-size=3G run
+Results:
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing sequential write (creation) test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      0.00
+    writes/s:                     19453.30
+    fsyncs/s:                     24903.69
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               303.96
+
+General statistics:
+    total time:                          30.0044s
+    total number of events:              1330812
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.02
+         max:                                   29.24
+         95th percentile:                        0.03
+         sum:                                29718.28
+
+Threads fairness:
+    events (avg/stddev):           1330812.0000/0.00
+    execution time (avg/stddev):   29.7183/0.00
+----------------------------------------
+Run 2:
+Command: sysbench fileio --file-test-mode=seqwr --file-total-size=3G run
+Results:
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing sequential write (creation) test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      0.00
+    writes/s:                     18955.31
+    fsyncs/s:                     24264.30
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               296.18
+
+General statistics:
+    total time:                          30.0066s
+    total number of events:              1296781
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.02
+         max:                                   34.86
+         95th percentile:                        0.03
+         sum:                                29740.94
+
+Threads fairness:
+    events (avg/stddev):           1296781.0000/0.00
+    execution time (avg/stddev):   29.7409/0.00
+----------------------------------------
+Run 3:
+Command: sysbench fileio --file-test-mode=seqwr --file-total-size=3G run
+Results:
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing sequential write (creation) test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      0.00
+    writes/s:                     18144.14
+    fsyncs/s:                     23228.36
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               283.50
+
+General statistics:
+    total time:                          30.0034s
+    total number of events:              1241220
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.02
+         max:                                   64.49
+         95th percentile:                        0.03
+         sum:                                29748.90
+
+Threads fairness:
+    events (avg/stddev):           1241220.0000/0.00
+    execution time (avg/stddev):   29.7489/0.00
+----------------------------------------
+Run 4:
+Command: sysbench fileio --file-test-mode=seqwr --file-total-size=3G run
+Results:
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing sequential write (creation) test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      0.00
+    writes/s:                     19166.70
+    fsyncs/s:                     24533.51
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               299.48
+
+General statistics:
+    total time:                          30.0043s
+    total number of events:              1311104
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.02
+         max:                                   23.35
+         95th percentile:                        0.03
+         sum:                                29738.57
+
+Threads fairness:
+    events (avg/stddev):           1311104.0000/0.00
+    execution time (avg/stddev):   29.7386/0.00
+----------------------------------------
+Run 5:
+Command: sysbench fileio --file-test-mode=seqwr --file-total-size=3G run
+Results:
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing sequential write (creation) test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      0.00
+    writes/s:                     19203.67
+    fsyncs/s:                     24584.69
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               300.06
+
+General statistics:
+    total time:                          30.0039s
+    total number of events:              1313728
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.02
+         max:                                   23.53
+         95th percentile:                        0.03
+         sum:                                29716.90
+
+Threads fairness:
+    events (avg/stddev):           1313728.0000/0.00
+    execution time (avg/stddev):   29.7169/0.00
+----------------------------------------
