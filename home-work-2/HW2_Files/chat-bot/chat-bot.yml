@@ -1,0 +1,13 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  chat-bot:
+    lang: python3
+    handler: ./chat-bot
+    image: snehalnikam30/chat-bot:latest
+    environment:
+      write_debug: true
+    dependencies:
+      - requirements.txt
