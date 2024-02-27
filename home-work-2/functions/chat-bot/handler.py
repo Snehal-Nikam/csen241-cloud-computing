@@ -31,5 +31,5 @@ def handle(req):
     return '\n'.join(response)
 
 
-if __name__ == "__main__":
-    print(invoke_figlet_function("HELLO"))
+#if __name__ == "__main__":
+#    print(invoke_figlet_function("HELLO"))
