@@ -1,16 +1,32 @@
 import requests
 import datetime
+import random
 
 def handle_question(question):
     if "name" in question.lower():
-        return ["You can call me ChatBot."]
+        names = ["Chat Assistant", "Snehal", "Chatbot"]
+        return random.choice(["I'm called as {}.".format(names[1]),
+                              "I'm your personal {}.".format(names[0]),
+                              "I go by the name {}.".format(names[2])])
     elif "current time" in question.lower():
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        return ["Time now is " + current_time]
+        return random.choice(["The clock shows {}.".format(current_time),
+                              "Time now is  {}.".format(current_time),
+                              "Current date and time is {}.".format(current_time)])
     elif "figlet for" in question.lower():
         figlet_text = question.split("figlet for")[1].strip()
         figlet_response = invoke_figlet_function(figlet_text)
         return figlet_response
+    elif 'figlet' in question.lower():
+        start_index = question.lower().find("for ")
+        if start_index != -1:
+            figlet_text = question.lower()[start_index + 4:].strip()
+            if figlet_text:
+                return invoke_figlet_function(figlet_text)
+            else:
+                return "What text would you like me to tranform to the figlet."
+        else:
+            return "Could you specify the text for the figlet."
     else:
         return ["Sorry, I didn't understand the question."]
 
