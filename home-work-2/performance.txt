@@ -1,0 +1,7 @@
+A. Response time for the first request using no figlet call: 0.2729 seconds
+B. Response time for the second request using no figlet call: 0.2584 seconds
+C. Average response time over 10 requests using no figlet call: 0.2670 seconds
+D. Response time for the first request using with figlet call: 60.0067 seconds
+E. Response time for the second request using with figlet call: 60.0067 seconds
+F. Response time for the second request using with figlet and after without figlet call: 60.0065 seconds
+G. Average response time over 10 requests using figlet call: 60.0085 seconds
