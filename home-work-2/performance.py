@@ -56,7 +56,7 @@ class ChatBotPerformance:
 
 if __name__ == "__main__":
     # chatbot's endpoint
-    endpoint = "http://localhost:8080/function/chat-bot"
+    endpoint = "http://10.62.0.4:8080/function/chat-bot"
     analyzer = ChatBotPerformance(endpoint)
     analyzer.start()
 
